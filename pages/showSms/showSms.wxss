@@ -1,0 +1,18 @@
+@import "../common/index.wxss";
+.navigator-hover button{
+  background-color: #DEDEDE;
+}
+.other-navigator-hover button{
+  background-color: #DEDEDE;
+}
+.contentInput{
+  height: 200rpx;
+}
+.phoneInput,.nameInput,.sendBtn{
+  margin-top: 50rpx;
+}
+.warnLabel{
+  margin-top: 10rpx;
+  color:lightcoral;
+  font-size: 30rpx;
+}

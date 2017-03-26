@@ -1,0 +1,11 @@
+@import "../common/index.wxss";
+.navigator-hover button{
+  background-color: #DEDEDE;
+}
+.other-navigator-hover button{
+  background-color: #DEDEDE;
+}
+.contentInput{
+  height: 100rpx;
+  line-height: 100rpx;
+}

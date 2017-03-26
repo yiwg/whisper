@@ -1,0 +1,12 @@
+<import src="../../style/footer.wxml" />
+<view class="container">
+  <view class="page-body">
+    <view class="page-section-title">您要发送的匿名信</view>
+    <view><label>号码:{{phone}}</label></view>
+    <view><label>称呼：{{name}}</label></view>
+    <view><label>内容：{{content}}</label></view>
+    <button class="sendBtn" bindtap="backHandle">返回修改</button><button class="sendBtn" bindtap="okHandle">确认发送</button>
+    <view class="page-section-title">我们会以匿名短信的方式传达您的匿名信，每个用户24小时内只有一次发送匿名信的机会！如果您今天已经没有匿名信机会了，您可以去隔壁纸飞机看看，听说那里更好玩</view>   
+  </view>
+  <template is="foot" />
+</view>
